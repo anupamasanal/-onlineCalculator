@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="calculator.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-4 b1">
+                <div class="row">
+                    <div class="col-md-12">
+                        <input  type="text" id="res">
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="clearr()">></i></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success " onclick="display('7')">7</button>
+                    </div>
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="display('8')">8</button>
+                    </div>
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="display('9')">9</button>
+                    </div>
+
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="operclickk('+')">+</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="display('4')">4</button>
+                    </div>
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="display('5')">5</button>
+                    </div>
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="display('6')">6</button>
+                    </div>
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="operclickk('-')">-</button>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="display('3')">3</button>
+                    </div>
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="display('2')">2</button>
+                    </div>
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="display('1')">1</button>
+                    </div>
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="operclickk('/')">/</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="display('.')">.</button>
+                    </div>
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="display('0')">0</button>
+                    </div>
+                    <div class="col-md-3 a">
+                        <button class="btn btn-success" onclick="operclickk('x')">x</button>
+                    </div>
+                    <div class="col-md-3 a">
+                        <button id="btn" class="btn btn-success" onclick="ress()">=</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+
+            </div>
+        </div>
+    
+    </div>
+
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
